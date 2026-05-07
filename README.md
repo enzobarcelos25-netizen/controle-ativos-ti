@@ -1,16 +1,26 @@
 # Controle de Ativos TI
 
-Aplicacao front-end em React para cadastro e listagem de ativos de TI.
+Front-end em React para cadastro e listagem de ativos de TI.
 
-O projeto simula uma tela simples de controle usada por suporte ou infraestrutura para registrar equipamentos, visualizar itens cadastrados e praticar componentizacao no React.
+<p align="center">
+  <img src="https://img.shields.io/badge/React-111?style=for-the-badge&logo=react" alt="React" />
+  <img src="https://img.shields.io/badge/Vite-111?style=for-the-badge&logo=vite" alt="Vite" />
+  <img src="https://img.shields.io/badge/JavaScript-111?style=for-the-badge&logo=javascript" alt="JavaScript" />
+</p>
+
+## Visao geral
+
+Este projeto simula uma tela interna de suporte ou infraestrutura para registrar e visualizar ativos de TI.
+
+O foco aqui e praticar React em um contexto proximo da rotina corporativa: formulario, lista, componentes separados e dados mockados.
 
 ## Funcionalidades
 
-- Formulario para cadastro de ativos.
-- Lista de ativos cadastrados.
-- Componente individual para exibicao de item.
+- Cadastro de ativos.
+- Listagem de equipamentos.
+- Componente individual para cada item.
 - Dados mockados em `src/data/ativosMock.js`.
-- Estrutura separada em componentes.
+- Estrutura organizada por componentes.
 
 ## Stack
 
@@ -41,7 +51,7 @@ npm install
 npm run dev
 ```
 
-Acesse o endereco exibido pelo Vite no terminal, normalmente:
+Acesse o endereco exibido pelo Vite, normalmente:
 
 ```txt
 http://localhost:5173
@@ -49,19 +59,19 @@ http://localhost:5173
 
 ## Aprendizados praticados
 
-- Criacao de componentes React.
+- Componentizacao em React.
 - Passagem de dados entre componentes.
-- Organizacao de pastas.
-- Uso de estado e renderizacao de listas.
-- Separacao entre dados mockados e interface.
+- Renderizacao de listas.
+- Separacao entre dados e interface.
+- Organizacao inicial de projeto front-end.
 
 ## Proximos passos
 
-- Persistir os ativos em API ou banco de dados.
-- Adicionar edicao e exclusao de ativos.
+- Persistir ativos em API ou banco.
+- Adicionar edicao e exclusao.
 - Criar filtros por tipo, usuario ou status.
-- Melhorar layout responsivo.
-- Adicionar README com prints da tela.
+- Melhorar responsividade.
+- Adicionar prints da tela.
 
 ## Status
 
