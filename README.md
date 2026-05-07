@@ -1,16 +1,68 @@
-# React + Vite
+# Controle de Ativos TI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicacao front-end em React para cadastro e listagem de ativos de TI.
 
-Currently, two official plugins are available:
+O projeto simula uma tela simples de controle usada por suporte ou infraestrutura para registrar equipamentos, visualizar itens cadastrados e praticar componentizacao no React.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Funcionalidades
 
-## React Compiler
+- Formulario para cadastro de ativos.
+- Lista de ativos cadastrados.
+- Componente individual para exibicao de item.
+- Dados mockados em `src/data/ativosMock.js`.
+- Estrutura separada em componentes.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Stack
 
-## Expanding the ESLint configuration
+- React
+- Vite
+- JavaScript
+- CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Estrutura
+
+```txt
+controle-ativos-ti/
+  src/
+    componentes/
+      Formulario/
+      Item/
+      ListaAtivos.jsx
+    data/
+      ativosMock.js
+    App.jsx
+    main.jsx
+```
+
+## Como rodar
+
+```bash
+npm install
+npm run dev
+```
+
+Acesse o endereco exibido pelo Vite no terminal, normalmente:
+
+```txt
+http://localhost:5173
+```
+
+## Aprendizados praticados
+
+- Criacao de componentes React.
+- Passagem de dados entre componentes.
+- Organizacao de pastas.
+- Uso de estado e renderizacao de listas.
+- Separacao entre dados mockados e interface.
+
+## Proximos passos
+
+- Persistir os ativos em API ou banco de dados.
+- Adicionar edicao e exclusao de ativos.
+- Criar filtros por tipo, usuario ou status.
+- Melhorar layout responsivo.
+- Adicionar README com prints da tela.
+
+## Status
+
+Projeto de estudo aplicado a um problema real de TI corporativa.
